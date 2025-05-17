@@ -1,0 +1,22 @@
+{
+  "env": {
+    "test": "test"
+  },
+  "configurations": [
+    {
+      //编译配置的名称,会显示在右下角状态栏
+      "name": "Android",
+      //需要导入的头文件
+      "includePath": ["${workspaceFolder}/**"],
+      //预定义宏
+      "defines": [],
+      // "compilerPath": "${env:ANDROID_SDK_HOME}/ndk/${env:NDK}/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++",
+
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "clang-x64",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}
